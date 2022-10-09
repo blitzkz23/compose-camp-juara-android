@@ -18,7 +18,7 @@ class TipUITests {
 				TipTimeScreen()
 			}
 		}
-		composeTestRule.onNodeWithText("Cost Of Service")
+		composeTestRule.onNodeWithText("Cost of Service")
 			.performTextInput("10")
 		composeTestRule.onNodeWithText("Tip (%)").performTextInput("20")
 		composeTestRule.onNodeWithText("Tip Amount: $2.00").assertExists()
